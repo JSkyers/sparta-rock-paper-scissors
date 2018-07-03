@@ -38,6 +38,8 @@ var roboscore = 0;
     alert ("THE PLAYER WINS THE ROUND! Player " + playerscore + " - Computer " + roboscore)
     if (playerscore == 3) {
         alert("THE PLAYER WINS IT ALL!")
+        roboscore = 0;
+        playerscore = 0;
       } else {
         Game();
       }
@@ -52,6 +54,8 @@ var roboscore = 0;
    alert ("THE COMPUTER WINS THE ROUND! Player " + playerscore + " - Computer " + roboscore)
    if (roboscore == 3) {
       alert("THE COMPUTER WINS IT ALL!")
+      roboscore = 0;
+      playerscore = 0;
     } else {
       Game();
     }
